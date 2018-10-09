@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "John Kahn <hello@jkahn.me>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "~7.0.1",
+    "react": "~16.5.2",
+    "react-dom": "~16.5.2"
+  }
+}
