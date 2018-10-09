@@ -1,10 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
+import Header from 'shared/components/Header';
+import NavButton from 'shared/components/NavButton';
 
 const IndexPage = () => (
   <div>
-    <h1>Hello World</h1>
-    <Link href="/about">About</Link>
+    <Link href="/about" passHref>
+      <NavButton>About</NavButton>
+    </Link>
+    <Header>Hello World</Header>
   </div>
 );
 
